@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.product_card{
+    position: relative;
+    max-width: 300px;
+    width: 100%;
+    background: white;
+    text-align: center;
+    border-radius: 15px;
+    padding: 10px 15px;
+}
+
+.item{
+    grid-template-columns: 70px 150px 70px 1fr;
+
+}
+
+.shopping{
+    grid-template-rows: 50px 1fr 70px;
+   
+}
+
+.inset{
+    inset: 0 -400px 0 auto;
+}

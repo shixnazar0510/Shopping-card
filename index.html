@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Shopping card</title>
+        <link rel="stylesheet" href="./src/output.css">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css'
+            rel='stylesheet'>
+    </head>
+    <body class="bg-[#eaeaea]">
+
+        <nav>
+            <div class="container py-5 flex items-center justify-between">
+                <a href="#!" class="text-[25px] font-bold">Logo</a>
+                <span class="relative icon cursor-pointer">
+                    <i class='bx bxs-cart text-[30px]'></i>
+                    <span class="w-[15px] h-[15px]
+                 rounded-full bg-red-500 text-white
+                  text-[12px] absolute top-0 left-5 
+                  flex items-center justify-center">0</span>
+                </span>
+            </div>
+            <hr>
+        </nav>
+
+        <div id="wrap"
+            class="container gap-5 place-items-center my-5 grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1">
+
+        </div>
+
+
+
+        <div class="shopping inset duration-100 grid fixed right-0 top-0 bottom-0
+         w-[400px] bg-slate-400">
+            <h1 class="text-center text-[25px]">Shopping</h1>
+            <div class="list_praduct">
+                
+            </div>
+
+            <div class="grid grid-cols-2">
+                <button class="close bg-slate-500 text-white">Close</button>
+                <button class="total_price bg-orange-300"></button>
+            </div>
+
+        </div>
+
+        <script src="./main.js"></script>
+    </body>
+</html>
